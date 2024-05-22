@@ -1,0 +1,26 @@
+.cart-container {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-container img {
+    display: block; /* Asegúrate de que la imagen se comporte como un bloque */
+}
+
+.cart-badge {
+    position: absolute;
+    top: -5px; /* Ajusta según sea necesario para posicionar correctamente */
+    right: -5px; /* Ajusta según sea necesario para posicionar correctamente */
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px; /* Ajusta el tamaño del círculo */
+    height: 24px; /* Ajusta el tamaño del círculo */
+}
+

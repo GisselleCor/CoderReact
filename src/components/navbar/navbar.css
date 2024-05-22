@@ -1,0 +1,54 @@
+/* Estilos para el Navbar */
+.navbar-custom {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 4px rgba(3, 26, 77, 0.123); /* Cambio de color de la sombra */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.navbar-custom .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+}
+
+.navbar-custom .nav-link {
+    font-size: 1.2rem;
+    color: #fff !important;
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    margin-right: 20px; /* Espacio entre enlaces */
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ffd700 !important; /* Color dorado al pasar el cursor */
+}
+
+/* Estilos adicionales para la barra de navegación */
+.navbar-custom .nav-link:last-child {
+    margin-right: 0; /* Eliminar el espacio derecho del último enlace */
+}
+
+.navbar-custom .cart-link {
+    color: #fff !important;
+    font-size: 1.2rem;
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    margin-left: 20px; /* Espacio entre el enlace del carrito y otros enlaces */
+}
+
+.navbar-custom .cart-link:hover {
+    color: #ffd700 !important; /* Color dorado al pasar el cursor */
+}
+
+body {
+    padding-top: 70px; /* Evita que el contenido se solape con el Navbar */
+    background-color: #d9dcf0; /* Color de fondo de la página */
+}
+
+
+
+
+
