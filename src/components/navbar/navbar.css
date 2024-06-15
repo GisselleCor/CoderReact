@@ -7,6 +7,10 @@
     z-index: 1000;
     box-shadow: 0px 2px 4px rgba(3, 26, 77, 0.123); /* Cambio de color de la sombra */
     border-radius: 10px; /* Bordes redondeados */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 
 .navbar-custom .navbar-brand {
@@ -47,8 +51,3 @@ body {
     padding-top: 70px; /* Evita que el contenido se solape con el Navbar */
     background-color: #d9dcf0; /* Color de fondo de la página */
 }
-
-
-
-
-
